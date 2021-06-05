@@ -1,4 +1,4 @@
-Hi, my name's #Genaro, find me at most social media platforms with the same tag @thisisgenaro
+Hi, my name's Genaro, find me at most social media platforms with the same tag @thisisgenaro
 
 I work automation with powershell scripts, but I'm currently learning web app development at my own pace. Hope we can get along!
 
