@@ -16,7 +16,7 @@
         "timespan":"2017 - 2019",
         "role":"SENIOR IT INFRASTRUCTURE SPECIALIST",
         "company":"SOLVEX",
-        "description":"IT Project implementation, troubleshooting, design, scripting, deployment and assessment of clients’ needs."
+        "description":"IT Project implementation, troubleshooting, design, scripting, deployment and assessment of clients' needs."
      },
      {
         "timespan":"2016 - 2017",
@@ -36,5 +36,40 @@
         "company":"Teknowlogic",
         "description":"IT training & consulting services. IT services implementation and training delivery in other latinamerican countries: Mexico, Colombia, Puerto Rico, Ecuador, Costa Rica."
      }
-    ]
+    ],
+
+    "Education" : [
+        {
+           "year":"2014",
+           "degree":"ENGINEERING ELECTRONICS",
+           "specialy":"Communications",
+           "school":"UNAPEC"
+        },
+        {
+           "year":"2008",
+           "degree":"ELECTRONICS TECHNICIAN",
+           "specialy":"Communications",
+           "school":"Instituto Politecnico Loyola"
+        }
+      ],
+
+      "Social" : [
+        {
+           "site":"Twitter",
+           "url":"https://twitter.com/thisisgenaro"
+        },
+        {
+           "site":"LinkedIn",
+           "url":"https://linkedin.com/in/thisisgenaro"
+        },
+        {
+           "site":"Instagram",
+           "url":"https://instagram.com/thisisgenaro"
+        },
+        {
+           "site":"GitHub",
+           "url":"https://github.com/thisisgenaro"
+        }
+      ]
+
  }
