@@ -1,9 +1,11 @@
 const experience_data = "./experience.json";
 
+var dataJson = "./main-data.json"
+
 function importExperienceData()
 {
 
-    fetch("./experience.json")
+    fetch(dataJson)
     .then(response => {
         return response.json();
     })
