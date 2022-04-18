@@ -7,7 +7,7 @@ function importExperienceData()
     .then(response => {
         return response.json();
     })
-    .then(data => logExperienceData(data));
+    .then(data => logExperienceData(data.Experience));
 
 }
 
