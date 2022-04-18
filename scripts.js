@@ -9,13 +9,21 @@ function importJsonData(DataType)
     .then(response => {
         return response.json();
     })
-    .then(data => logJsonData(data[DataType]));
+    .then(data => logJsonData(data[DataType],DataType));
 
 }
 
-function logJsonData(data)
+function logJsonData(data,datatype)
 {
-    data.forEach(writeExperience)
+    switch(datatype){
+        case 'Experience':
+            data.forEach(writeExperience);
+            break;
+
+        default:
+            console.log('incorrect Datatype')
+            break;
+    }
 }
 
 function writeExperience(experience)
