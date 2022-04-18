@@ -2,18 +2,18 @@ const experience_data = "./experience.json";
 
 var dataJson = "./main-data.json"
 
-function importExperienceData()
+function importJsonData(DataType)
 {
 
     fetch(dataJson)
     .then(response => {
         return response.json();
     })
-    .then(data => logExperienceData(data.Experience));
+    .then(data => logJsonData(data[DataType]));
 
 }
 
-function logExperienceData(data)
+function logJsonData(data)
 {
     data.forEach(writeExperience)
 }
