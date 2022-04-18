@@ -1,14 +1,40 @@
 {
-    "Employees" : [
+    "Experience" : [
     {
-       "userId":"ravjy", "jobTitleName":"Developer", "firstName":"Ran","lastName":"Vijay",
-       "preferredFullName":"Ran Vijay","employeeCode":"H9","region":"DL","phoneNumber":"34567689",
-       "emailAddress":"ranvijay.k.ran@gmail.com"
+       "title":"2021 - Current",
+       "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+       "company":"DPWorld Caucedo",
+       "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
     },
     {
-       "userId":"mrvjy","jobTitleName":"Developer","firstName":"Murli","lastName":"Vijay",
-       "preferredFullName":"Murli Vijay","employeeCode":"A2","region":"MU",
-       "phoneNumber":"6543565","emailAddress":"murli@vijay.com"
-       }
+        "title":"2021 - Current",
+        "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+        "company":"DPWorld Caucedo",
+        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
+     },
+     {
+        "title":"2021 - Current",
+        "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+        "company":"DPWorld Caucedo",
+        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
+     },
+     {
+        "title":"2021 - Current",
+        "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+        "company":"DPWorld Caucedo",
+        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
+     },
+     {
+        "title":"2021 - Current",
+        "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+        "company":"DPWorld Caucedo",
+        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
+     },
+     {
+        "title":"2021 - Current",
+        "role":"LEAD IT INFRASTRUCTURE ENGINEER",
+        "company":"DPWorld Caucedo",
+        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
+     }
     ]
  }
