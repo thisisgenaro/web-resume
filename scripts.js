@@ -48,6 +48,7 @@ function writeExperience(experience)
     
     var HTMLOutput = document.createElement('li');
     var timespanHTML = document.createElement('div');
+    timespanHTML.setAttribute('class','timespan');
     timespanHTML.innerText = timespan;
     HTMLOutput.appendChild(timespanHTML);
 
@@ -58,6 +59,7 @@ function writeExperience(experience)
     companyHTML.innerText = company;
 
     var content = document.createElement('div');
+    content.setAttribute('class','content');
     
     content.appendChild(roleHTML);
     content.appendChild(companyHTML);
