@@ -29,30 +29,42 @@ function logJsonData(data,datatype)
 function writeExperience(experience)
 {
 
+    /* -----    Expected Output - Example
+    
+            <li>
+                <div class="timespan">2021 - Current</div>
+                <div class="content">
+                    <strong>LEAD IT INFRASTRUCTURE ENGINEER,</strong><em>DPWorld Caucedo</em>
+                    Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more.
+                </div>
+            </li>
+    
+    */
+
     var timespan = experience.timespan;
     var role = experience.role;
     var company = experience.company;
     var description = experience.description;
     
-    var AddLi = document.createElement('li');
-    var timespanNew = document.createElement('div');
-    timespanNew.innerText = timespan;
-    AddLi.appendChild(timespanNew);
+    var HTMLOutput = document.createElement('li');
+    var timespanHTML = document.createElement('div');
+    timespanHTML.innerText = timespan;
+    HTMLOutput.appendChild(timespanHTML);
 
-    var roleNew = document.createElement('strong');
-    var companyNew = document.createElement('em');
+    var roleHTML = document.createElement('strong');
+    var companyHTML = document.createElement('em');
     
-    roleNew.innerText = role;
-    companyNew.innerText = company;
+    roleHTML.innerText = role;
+    companyHTML.innerText = company;
 
     var content = document.createElement('div');
     
-    content.appendChild(roleNew);
-    content.appendChild(companyNew);
+    content.appendChild(roleHTML);
+    content.appendChild(companyHTML);
     content.innerHTML += description;
     
-    AddLi.appendChild(content);
+    HTMLOutput.appendChild(content);
 
-	document.getElementById("work-experience").appendChild(AddLi);
+	document.getElementById("work-experience").appendChild(HTMLOutput);
 
 }
