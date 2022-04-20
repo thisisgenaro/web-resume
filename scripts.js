@@ -106,7 +106,7 @@ function writeExperience(experience)
     timespanHTML.innerText = timespan;
     content.appendChild(timespanHTML);
     content.appendChild(document.createElement('br'));
-    content.appendChild(description);
+    content.innerHTML += description;
 
     HTMLOutput.appendChild(content);
     document.getElementById("work-experience").appendChild(HTMLOutput);
