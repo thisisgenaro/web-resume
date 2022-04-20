@@ -29,9 +29,7 @@ function logJsonData(data,datatype)
 function writeExperience(experience)
 {
 
-    /* -----    Expected Output - Example
-    
-            v2
+    /* -----    Expected Output - Example v2
 
             <li class="experience item">
                 <div class="content">
@@ -41,37 +39,7 @@ function writeExperience(experience)
                 </div>
             </li>
     
-   
-
-    var timespan = experience.timespan;
-    var role = experience.role;
-    var company = experience.company;
-    var description = experience.description;
-    
-    var HTMLOutput = document.createElement('li');
-    var timespanHTML = document.createElement('div');
-    timespanHTML.setAttribute('class','timespan');
-    timespanHTML.innerText = timespan;
-    HTMLOutput.appendChild(timespanHTML);
-
-    var roleHTML = document.createElement('strong');
-    var companyHTML = document.createElement('em');
-    
-    roleHTML.innerText = role;
-    companyHTML.innerText = company;
-
-    var content = document.createElement('div');
-    content.setAttribute('class','content');
-    
-    content.appendChild(roleHTML);
-    content.appendChild(companyHTML);
-    content.innerHTML += description;
-    
-    HTMLOutput.appendChild(content);
-
-	document.getElementById("work-experience").appendChild(HTMLOutput);
-
-     */
+   */
 
     var timespan = experience.timespan;
     var role = experience.role;
@@ -79,8 +47,7 @@ function writeExperience(experience)
     var description = experience.description;
 
     var HTMLOutput = document.createElement('li');
-    HTMLOutput.setAttribute('class','item');
-    HTMLOutput.setAttribute('class','experience');
+    HTMLOutput.classList.add('experience','item');
 
     var content = document.createElement('div');
     content.setAttribute('class','content');
@@ -103,4 +70,17 @@ function writeExperience(experience)
     HTMLOutput.appendChild(content);
     document.getElementById("work-experience").appendChild(HTMLOutput);
 
+}
+
+function writeEducation(education)
+{
+    /*
+        <li class="education item">
+            <div class="content">
+                <h2>LEAD IT INFRASTRUCTURE ENGINEER</h2><br>
+                <em>DPWorld Caucedo</em><span class="timespan">2021 - Current</span><br>
+                Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more.
+            </div>
+        </li>
+    */
 }
