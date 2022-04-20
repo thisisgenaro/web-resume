@@ -31,19 +31,11 @@ function writeExperience(experience)
 
     /* -----    Expected Output - Example
     
-            <li>
-                <div class="timespan">2021 - Current</div>
-                <div class="content">
-                    <strong>LEAD IT INFRASTRUCTURE ENGINEER,</strong><em>DPWorld Caucedo</em>
-                    Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more.
-                </div>
-            </li>
-
             v2
 
             <li class="experience item">
                 <div class="content">
-                    <h1>LEAD IT INFRASTRUCTURE ENGINEER</h1><br>
+                    <h2>LEAD IT INFRASTRUCTURE ENGINEER</h2><br>
                     <em>DPWorld Caucedo</em><span class="timespan">2021 - Current</span><br>
                     Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more.
                 </div>
@@ -93,7 +85,7 @@ function writeExperience(experience)
     var content = document.createElement('div');
     content.setAttribute('class','content');
 
-    var roleHTML = document.createElement('h1');
+    var roleHTML = document.createElement('h2');
     roleHTML.innerText = role;
     content.appendChild(roleHTML);
     content.appendChild(document.createElement('br'));
