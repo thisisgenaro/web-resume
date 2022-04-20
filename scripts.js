@@ -1,5 +1,3 @@
-const experience_data = "./experience.json";
-
 var dataJson = "./main-data.json"
 
 function importJsonData(DataType)
@@ -18,6 +16,10 @@ function logJsonData(data,datatype)
     switch(datatype){
         case 'Experience':
             data.forEach(writeExperience);
+            break;
+
+        case 'Education':
+            data.forEach(writeEducation);
             break;
 
         default:
