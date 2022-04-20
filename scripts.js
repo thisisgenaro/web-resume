@@ -1,31 +1,20 @@
 var dataJson = "./main-data.json"
 
-function importJsonData(DataType)
+function importJsonData()
 {
 
     fetch(dataJson)
     .then(response => {
         return response.json();
     })
-    .then(data => logJsonData(data[DataType],DataType));
+    .then(data => logJsonData(data));
 
 }
 
-function logJsonData(data,datatype)
-{
-    switch(datatype){
-        case 'Experience':
-            data.forEach(writeExperience);
-            break;
-
-        case 'Education':
-            data.forEach(writeEducation);
-            break;
-
-        default:
-            console.log('incorrect Datatype')
-            break;
-    }
+function logJsonData(data)
+{   
+        data.Experience.forEach(writeExperience);
+        data.Education.forEach(writeEducation);
 }
 
 function writeExperience(experience)
