@@ -107,11 +107,12 @@ function writeEducation(education)
         if(mention){
             mentionHTML.innerText = ("Mention: " + mention);
             content.appendChild(mentionHTML);
+            content.appendChild(document.createElement('br'));
         }
 
     
         var yearHTML = document.createElement('span');
-        yearHTML.innerText = year;
+        yearHTML.innerText = 'Finished: ' + year;
         content.appendChild(yearHTML);
         content.appendChild(document.createElement('br'));
         content.innerHTML += school;
