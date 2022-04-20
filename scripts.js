@@ -7,7 +7,7 @@ function importJsonData()
     .then(response => {
         return response.json();
     })
-    .then(data => logJsonData(data));
+    .then(data => logJsonData(data)) ;
 
 }
 
