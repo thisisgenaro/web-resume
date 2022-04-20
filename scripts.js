@@ -106,7 +106,7 @@ function writeEducation(education)
 
         if(mention){
             mentionHTML.innerText = ("Mention: " + mention);
-            content.appendChild(companyHTML);
+            content.appendChild(mentionHTML);
         }
 
     
