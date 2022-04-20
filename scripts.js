@@ -77,10 +77,44 @@ function writeEducation(education)
     /*
         <li class="education item">
             <div class="content">
-                <h2>LEAD IT INFRASTRUCTURE ENGINEER</h2><br>
-                <em>DPWorld Caucedo</em><span class="timespan">2021 - Current</span><br>
-                Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more.
+                <h2>ELECTRONICS ENGINEERING</h2><br>
+                <em>Mention Communications</em><span class="year">2014</span><br>
+                UNAPEC
             </div>
         </li>
     */
+
+        var year = education.year;
+        var degree = education.degree;
+        var school = education.school;
+        var mention = education.mention;
+    
+        var HTMLOutput = document.createElement('li');
+        HTMLOutput.classList.add('education','item');
+    
+        var content = document.createElement('div');
+        content.setAttribute('class','content');
+    
+        var degreeHTML = document.createElement('h2');
+        degreeHTML.innerText = degree;
+        content.appendChild(degreeHTML);
+        content.appendChild(document.createElement('br'));
+    
+        var mentionHTML = document.createElement('em');
+
+        if(mention){
+            mentionHTML.innerText = ("Mention: " + mention);
+            content.appendChild(companyHTML);
+        }
+
+    
+        var yearHTML = document.createElement('span');
+        yearHTML.innerText = year;
+        content.appendChild(yearHTML);
+        content.appendChild(document.createElement('br'));
+        content.innerHTML += school;
+    
+        HTMLOutput.appendChild(content);
+        document.getElementById("education").appendChild(HTMLOutput);
+
 }
