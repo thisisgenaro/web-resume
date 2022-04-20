@@ -1,4 +1,4 @@
-var dataJson = "./main-data.json"
+var dataJson = "sources/main-data.json"
 
 function importJsonData()
 {
