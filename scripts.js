@@ -89,7 +89,7 @@ function writeEducation(education)
         var year = education.year;
         var degree = education.degree;
         var school = education.school;
-        var mention = education.mention;
+        var mention = education.specialty;
     
         var HTMLOutput = document.createElement('li');
         HTMLOutput.classList.add('education','item');
