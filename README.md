@@ -15,23 +15,23 @@
 
 ## Experience
 
-- ### LEAD IT INFRASTRUCTURE & CYBERSECURITY ENGINEER
+### LEAD IT INFRASTRUCTURE & CYBERSECURITY ENGINEER
 *DPWorld Dominican Republic*, **2021 - Current**
 
-- ### SERVER ANALYST & IT INFRASTRUCTURE ARCHITECT
+### SERVER ANALYST & IT INFRASTRUCTURE ARCHITECT
 *Direccion General de Aduanas*, **2019 - 2021**
 
-- ### SENIOR IT INFRASTRUCTURE SPECIALIST
+### SENIOR IT INFRASTRUCTURE SPECIALIST
 *Solvex*, **2017 - 2019**
 
-- ### SYSTEMS ENGINEER LEVEL III
+### SYSTEMS ENGINEER LEVEL III
 *ERCBPO*, **2016 - 2017**
 
-- ### SYSTEMS ADMINISTRATOR
+### SYSTEMS ADMINISTRATOR
 *Instituto Tecnologico de Santo Domingo*, **2013 - 2016**
 
-- ### IT Consultant, Trainer
+### IT Consultant, Trainer
 *Teknowlogic*, **2009 - 2013**
 
-- ### Lab Support, Utilities intern
+### Lab Support, Utilities intern
 *Teknowlogic*, **2008 - 2009**
