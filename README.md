@@ -8,10 +8,10 @@
 
 ## ThisIsGenaro
 
-- [Twitter]<https://twitter.com/thisisgenaro>
-- [Instagram]<https://instagram.com/thisisgenaro>
-- [LinkedIn]<https://linkedin.com/in/thisisgenaro>
-- [GitHub]<https://github.com/thisisgenaro>
+- [Twitter](https://twitter.com/thisisgenaro)
+- [Instagram](https://instagram.com/thisisgenaro)
+- [LinkedIn](https://linkedin.com/in/thisisgenaro)
+- [GitHub](https://github.com/thisisgenaro)
 
 ## Experience
 
