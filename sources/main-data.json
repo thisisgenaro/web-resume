@@ -70,6 +70,44 @@
            "site":"GitHub",
            "url":"https://github.com/thisisgenaro"
         }
-      ]
+      ],
 
+      "Skills" : [
+         {
+            "skill":"Windows Server",
+            "rate":"90"
+         },
+         {
+            "skill":"Active Directory",
+            "rate":"90"
+         },
+         {
+            "skill":"Office 365",
+            "rate":"75"
+         },
+         {
+            "skill":"Exchange",
+            "rate":"85"
+         },
+         {
+            "skill":"Lync/Skype for Business/Teams",
+            "rate":"70"
+         },
+         {
+            "skill":"Linux",
+            "rate":"50"
+         },
+         {
+            "skill":"Hyper-V",
+            "rate":"90"
+         },
+         {
+            "skill":"System Center Configuration Manager",
+            "rate":"90"
+         },
+         {
+            "skill":"System Center Virtual Machine Manager",
+            "rate":"90"
+         }
+      ]
  }
