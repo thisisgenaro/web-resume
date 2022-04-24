@@ -16,6 +16,7 @@ function logJsonData(data)
         data.Experience.forEach(writeExperience);
         data.Education.forEach(writeEducation);
         data.Skills.forEach(writeSkills);
+        data.Personality.forEach(writeTreats);
 }
 
 function writeExperience(experience)
@@ -116,7 +117,7 @@ function writeSkills(skill)
 {
 
     /*
-    <li>
+    <li class="skill item">
         <div class="skillBar">
             <div id="skillName">
             skillName
@@ -144,4 +145,23 @@ function writeSkills(skill)
     HTMLOutput.appendChild(skillID);
 
     document.getElementById("skills").appendChild(HTMLOutput);
+}
+
+function writeTreats(treat)
+{
+    /*
+        <li class="treat item">
+            <div class="personality">treat</div>
+        </li>
+    */
+
+    var personalTreat = treat.treat;
+    var HTMLOutput = document.createElement('li');
+    HTMLOutput.classList.add('treat','item');
+
+    var treatHTML = document.createElement('div');
+    treatHTML.innerText = personalTreat;
+
+    HTMLOutput.appendChild(treatHTML);
+    document.getElementById('personality-treats').appendChild(HTMLOutput);
 }
