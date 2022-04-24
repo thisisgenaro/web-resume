@@ -138,7 +138,7 @@ function writeSkills(skill)
     skillID.setAttribute('id',skillName);
 
     skillID.innerText = skillName;
-    skillID.style.width = skillrate + "%";
+    skillID.style.width = skillRate + "%";
 
     HTMLOutput.appendChild(skillBar);
     HTMLOutput.appendChild(skillID);
