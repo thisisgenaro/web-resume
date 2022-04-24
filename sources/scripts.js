@@ -15,7 +15,7 @@ function logJsonData(data)
 {   
         data.Experience.forEach(writeExperience);
         data.Education.forEach(writeEducation);
-        data.Skills.foreach(writeSkills);
+        data.Skills.forEach(writeSkills);
 }
 
 function writeExperience(experience)
