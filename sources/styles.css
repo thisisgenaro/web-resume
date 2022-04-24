@@ -36,7 +36,7 @@ body
     color: #AAA;
 }
 
-.header.data
+ul .header.data
 {
     display: flex;
     justify-content: space-around;
