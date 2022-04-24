@@ -2,3 +2,29 @@ ul
 {
     list-style: none;
 }
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.main
+{
+    width: 80%;
+    height: 300px;
+    padding: 40px 100px;
+}
+
+.header
+{
+    background-color: #11113A;
+    color: white;
+}
+
+.header.name
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
