@@ -109,5 +109,35 @@
             "skill":"System Center Virtual Machine Manager",
             "rate":"90"
          }
+      ],
+
+      "Personality" : [
+         {
+            "treat":"Teamwork"
+         },
+         {
+            "treat":"Critical Thinking"
+         },
+         {
+            "treat":"Leadership"
+         },
+         {
+            "treat":"Empathy"
+         },
+         {
+            "treat":"Communication"
+         },
+         {
+            "treat":"Problem-Solving"
+         },
+         {
+            "treat":"Adaptability"
+         },
+         {
+            "treat":"Work Ethic"
+         },
+         {
+            "treat":"Attention to Detail"
+         }
       ]
  }
