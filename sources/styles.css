@@ -19,8 +19,7 @@ body
 
 .header
 {
-    background-color: #11113A;
-    color: white;
+    background-color: #FEFEFE;
 }
 
 .header.name
@@ -41,7 +40,7 @@ body
     color: #AAA;
 }
 
-ul .header.data
+.header.data
 {
     display: flex;
     justify-content: space-around;
