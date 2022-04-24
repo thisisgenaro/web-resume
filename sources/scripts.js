@@ -15,6 +15,7 @@ function logJsonData(data)
 {   
         data.Experience.forEach(writeExperience);
         data.Education.forEach(writeEducation);
+        data.Skills.foreach(writeSkills);
 }
 
 function writeExperience(experience)
@@ -109,4 +110,38 @@ function writeEducation(education)
         HTMLOutput.appendChild(content);
         document.getElementById("education").appendChild(HTMLOutput);
 
+}
+
+function writeSkills(skill)
+{
+
+    /*
+    <li>
+        <div class="skillBar">
+            <div id="skillName">
+            skillName
+            </div>
+        </div>
+    </li>
+    */
+
+    var skillName = skill.skill;
+    var skillRate = skill.rate;
+
+    var HTMLOutput = document.createElement('li');
+    HTMLOutput.classList.add('skill','item');
+
+    var skillBar = document.createElement('div');
+    skillBar.setAttribute('class','skillBar');
+
+    var skillID = document.createElement('div');
+    skillID.setAttribute('id',skillName);
+
+    skillID.innerText = skillName;
+    skillID.style.width = skillrate + "%";
+
+    HTMLOutput.appendChild(skillBar);
+    HTMLOutput.appendChild(skillID);
+
+    document.getElementById("skills").appendChild(HTMLOutput);
 }
