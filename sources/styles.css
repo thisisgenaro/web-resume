@@ -1,3 +1,5 @@
+/*-- GENERAL SETUP --*/
+
 ul
 {
     list-style: none;
@@ -18,6 +20,8 @@ body
     padding: 40px 100px;
 }
 
+/*-- HEADER CONTENT --*/
+
 .header
 {
     background-color: #FEFEFE;
@@ -34,7 +38,7 @@ body
 .personal.data
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .name
