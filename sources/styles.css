@@ -46,10 +46,3 @@ body
 {
     color: #AAA;
 }
-
-.header.data
-{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
