@@ -41,11 +41,12 @@ body
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    max-width: 70%;
 }
 
 .personal.item
 {
-    flex: 1;
+    flex: 1 0 auto;
     text-align: center;
 }
 
