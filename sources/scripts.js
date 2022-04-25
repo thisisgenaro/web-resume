@@ -17,6 +17,7 @@ function logJsonData(data)
         data.Education.forEach(writeEducation);
         data.Skills.forEach(writeSkills);
         data.Personality.forEach(writeTreats);
+        data.Social.forEach(writeSocial);
 }
 
 function writeExperience(experience)
@@ -164,4 +165,22 @@ function writeTreats(treat)
 
     HTMLOutput.appendChild(treatHTML);
     document.getElementById('personality-treats').appendChild(HTMLOutput);
+}
+
+function writeSocial(social)
+{
+    var socialName = social.site;
+    var socialURL = social.url;
+
+    var HTMLOutput = document.createElement('li');
+    var socialHtml = document.createElement('div');
+    var socialLink = document.createElement('a');
+
+    HTMLOutput.classList.add('social','item','link');
+    socialLink.innerText = socialName;
+    socialLink.setAttribute('a', socialURL);
+    socialHtml.appendChild(socialLink);
+    HTMLOutput.append(socialHtml);
+
+    document.getElementById('social-links').appendChild(HTMLOutput); 
 }
