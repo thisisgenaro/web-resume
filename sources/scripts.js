@@ -178,7 +178,7 @@ function writeSocial(social)
 
     HTMLOutput.classList.add('social','item','link');
     socialLink.innerText = socialName;
-    socialLink.setAttribute('src', socialURL);
+    socialLink.setAttribute('href', socialURL);
     socialHtml.appendChild(socialLink);
     HTMLOutput.append(socialHtml);
 
