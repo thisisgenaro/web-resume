@@ -38,12 +38,21 @@ body
 .personal.data
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.personal.item
+{
+    flex: 1;
+    text-align: center;
 }
 
 .name
 {
     font-family: 'Times New Roman', Times, serif;
+    flex-wrap: wrap;
 }
 
 .first
