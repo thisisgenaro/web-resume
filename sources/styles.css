@@ -27,11 +27,11 @@ body
 .header
 {
     background-color: #FEFEFE;
+    display: flex;
 }
 
 .header.name
 {
-    display: flex;
     justify-content: center;
     gap: 30px;
     font-size: 56px;
