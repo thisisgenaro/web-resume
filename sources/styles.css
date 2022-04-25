@@ -18,6 +18,8 @@ body
 {
     width: 80%;
     padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 /*-- HEADER CONTENT --*/
