@@ -35,7 +35,9 @@ function writeExperience(experience)
     
    */
 
-    var timespan = experience.timespan;
+    var startdate = experience.startdate;
+    var enddate = experience.enddate;
+    var timespan = startdate + " - " + enddate
     var role = experience.role;
     var company = experience.company;
     var description = experience.description;
@@ -52,7 +54,7 @@ function writeExperience(experience)
     content.appendChild(document.createElement('br'));
 
     var companyHTML = document.createElement('em');
-    companyHTML.innerText = (company + " - ");
+    companyHTML.innerText = (company + " / ");
     content.appendChild(companyHTML);
 
     var timespanHTML = document.createElement('span');
