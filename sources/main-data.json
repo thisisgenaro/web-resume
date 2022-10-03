@@ -1,8 +1,14 @@
 {
     "Experience" : [
-    {
-       "timespan":"2021 - Current",
-       "role":"LEAD IT INFRASTRUCTURE & CYBERSECURITY ENGINEER",
+   {
+      "timespan":"2022 - Current",
+      "role":"IT INFRASTRUCTURE & SECURITY SUPERVISOR",
+      "company":"DPWorld Caucedo",
+      "description":"Plan, implement, manage, monitor and maintain all IT operations and security components, preventing incidents and systems failures in the daily activities in the terminal and all its business units"
+   },
+   {
+       "timespan":"2021 - 2022",
+       "role":"LEAD IT INFRASTRUCTURE ENGINEER",
        "company":"DPWorld Caucedo",
        "description":"Responsible for planning, managing and implementing IT Infrastructure resources and their usage through all the port and logistics solutions offered in the terminal, including networks, servers, high availability, site redundancy, UPS, cloud, and more."
     },
