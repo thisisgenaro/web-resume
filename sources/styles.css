@@ -36,6 +36,17 @@ body
     gap: 30px;
 }
 
+.header.social
+{
+    flex-direction: column;
+}
+
+#social-links
+{
+    display:flex;
+    justify-content: space-around;
+}
+
 .header.name
 {
     gap: 30px;
