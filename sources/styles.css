@@ -43,7 +43,7 @@ body
 
 #social-links
 {
-    justify-content: space-around;
+    flex: 1 0 auto;
 }
 
 .header.name
