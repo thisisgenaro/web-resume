@@ -15,8 +15,11 @@
 
 ## Experience
 
+### SERVERS ADMINISTRATOR
+*Junta Central Electoral*, **2023 - Current**
+
 ### LEAD IT INFRASTRUCTURE & CYBERSECURITY ENGINEER
-*DPWorld Dominican Republic*, **2021 - Current**
+*DPWorld Dominican Republic*, **2021 - 2023**
 
 ### SERVER ANALYST & IT INFRASTRUCTURE ARCHITECT
 *Direccion General de Aduanas*, **2019 - 2021**
