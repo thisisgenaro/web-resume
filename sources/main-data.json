@@ -1,8 +1,15 @@
 {
     "Experience" : [
    {
-      "startdate":"2022",
+      "startdate":"2023",
       "enddate":"Current",
+      "role":"SERVERS ADMINISTRATOR",
+      "company":"Junta Central Electoral",
+      "description":"Manage, maintain and administer servers, virtualization hosts and other network appliances to guarantee and optimize the delivery of IT services. Implementation of security baselines and solution design."
+   },
+   {
+      "startdate":"2022",
+      "enddate":"2023",
       "role":"IT INFRASTRUCTURE & SECURITY SUPERVISOR",
       "company":"DPWorld Caucedo",
       "description":"Plan, implement, manage, monitor and maintain all IT operations and security components, preventing incidents and systems failures in the daily activities in the terminal and all its business units"
